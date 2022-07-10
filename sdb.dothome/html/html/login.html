@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Megazine B</title>
+  <link rel="stylesheet" href="css/style_login.css"></link>
+</head>
+
+<body>
+  <div class="header">
+    <div class="logo">
+      <img src="img/header_logo.svg" class="logo">
+    </div>
+    <div class="menu">
+      <div class="left-menu">
+      <ul>
+        <li><a href="#">New</a></li>
+        <li><a href="#">Megazine</a></li>
+        <li><a href="#">Books</a></li>
+        <li><a href="#">Newsletter</a></li>
+      </ul>
+      </div>
+      <div class="right-menu">
+      <ul>
+        <li><a href="#">Search</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="#">Cart[0]</a></li>
+        <div class="global_logo" >
+          <img src="img/icon_header_global_black.png" class="global_logo">
+        </div>
+        <li><a href="#">KR</a></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="login-form">
+    <form action="/login_page.php">
+      <input type="text" id="id" name="id" placeholder="아이디" class="text-field">
+      <input type="password" id="pwd" name="pwd" placeholder="패스워드" class="text-field">
+
+      <div class="option">
+        <input type="checkbox" id="login-state" name="login-state">
+        <label>로그인 상태 유지</label>
+      </div>
+
+      <div class="button-area">
+        <input type="submit" value="로그인" class="submit-btn">
+      </div>
+      
+    </form>
+
+    <div class="util">
+      <a href="#" class="util-border">주문조회</a>
+      <a href="#" class="util-border">아이디찾기</a>
+      <a href="#" class="util-border">비밀번호찾기</a>
+      <a href="#">회원가입</a>
+    </div>
+  </div>
+  
+  
+
+</body>
+
+</html>

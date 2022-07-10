@@ -1,0 +1,145 @@
+body {
+    margin: 0px;
+}
+
+.logo{
+    height: 1.3rem;
+    padding-left: 2.2rem;
+    padding-top: .7rem;
+}
+
+.global_logo{
+    float: left;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 0.15rem;
+}
+
+.logo, .menu{
+    float: left;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.menu{
+    padding-top: .1rem;
+    width:85%;
+    justify-content: space-between;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;    
+    /* background: rgba(0,0,0,0.05);
+    backdrop-filter: blur(30px);*/
+    color: #222222;
+    height: 56px;
+    z-index: 501;
+}
+
+.left-menu {
+    display: flex;
+    /* align-content:left; */
+}
+
+.left-menu li{
+    float:left;
+}
+
+.left-menu a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #222222;
+    
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1;
+    font-family: 'Beausite-Regular',sans-serif;
+}
+
+.left-menu li{
+    list-style-type: none;
+}
+
+.right-menu{
+    display: flex;
+    /* align-content: right;
+    margin-block-start: .1rem;
+    padding-left: 8rem; */
+    margin-left: auto;
+}
+
+.right-menu a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #222222;
+
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1;
+    font-family: 'Beausite-Regular',sans-serif;
+}
+
+.right-menu li{
+    float: left;
+    list-style-type: none;
+}
+
+/* login-form */
+.login-form{
+    width: 440px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    /* padding: 20px; */
+    padding-top: 10rem;
+    text-align: center;
+    border: none;
+    font-size: 1rem;
+}
+
+.text-field {
+    padding: 0 1rem;
+    height: 2.5rem;
+    width: 405px;
+    margin-bottom: 1.25rem;
+    border-color: #222222;
+    border: 1px solid #f2f2f2;
+}
+
+.option{ /* 로그인 상태 유지 체크 div */
+    text-align: start;
+    font-size: 12.25px;
+}
+
+.button-area{
+    padding: 1.5rem 0 2rem 0;
+}
+
+.submit-btn {
+    border: none;
+    padding: 0.7rem 1rem;
+    width: 100%;
+    background-color: #222222;
+    color: white;
+    border-radius: 0.25rem;
+    height: 2.8rem;
+}
+
+.util a{
+    padding-left: 13px;
+    padding-right: 15px;
+    /* flex: auto; */
+    height: 40px;
+    font-size: 12.25px;
+    line-height: 40px;
+    color: #999;
+    text-align: center;
+    text-decoration: none;
+}
+
+.util-border{
+    border-right: 1px solid #f2f2f2;
+}
