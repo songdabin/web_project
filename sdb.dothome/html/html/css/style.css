@@ -85,20 +85,32 @@ body {
 }
 
 .slide-1{
+    position: relative;
     background-image: url(https://bmagazine.s3.ap-northeast-2.amazonaws.com/wp-content/uploads/2022/05/04052349/F21_Home1920_18080.jpg);
+    height: 762px;
+    z-index: -1;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
 }
 
 .slide-2{
+    position: relative;
     background-image: url(https://bmagazine.s3.ap-northeast-2.amazonaws.com/wp-content/uploads/2022/05/16101021/Main_TheNeiborhood2.jpg);
+    height: 762px;
+    z-index: -1;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
 }
 
 .slide-3{
-    background-image: url(https://bmagazine.s3.ap-northeast-2.amazonaws.com/wp-content/uploads/2022/05/16050705/Main_Lemaire.jpg);
-}
-
-.slide{
     position: relative;
-    /* background-image: url(https://bmagazine.s3.ap-northeast-2.amazonaws.com/wp-content/uploads/2022/05/04052349/F21_Home1920_18080.jpg); */
+    background-image: url(https://bmagazine.s3.ap-northeast-2.amazonaws.com/wp-content/uploads/2022/05/16050705/Main_Lemaire.jpg);
     height: 762px;
     z-index: -1;
 
@@ -188,19 +200,19 @@ body {
 /* slider css */
 .active {
     background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
+  }
+  
+  /* Fading animation */
+  .fade {
     animation-name: fade;
     animation-duration: 2s;
-}
+  }
 
-.center{
+  .center{
     text-align: center;
-}
+  }
 
-.scrollbar {
+  .scrollbar {
     height: 5px;
     width: 32.78%;
     background: rgba(255,255,255,0.5);
@@ -208,4 +220,4 @@ body {
     display: inline-block;
     transition: background-color 0.3s ease;
     opacity: 1;
-}
+  }
