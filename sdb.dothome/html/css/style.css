@@ -196,13 +196,12 @@ body {
     background-color: #717171;
 }
 
-/* Fading animation */
-.fade {
+.fade { /* Fading animation */
     animation-name: fade;
     animation-duration: 2s;
 }
 
-.center{
+/* .center{
     text-align: center;
 }
 
@@ -214,4 +213,210 @@ body {
     display: inline-block;
     transition: background-color 0.3s ease;
     opacity: 1;
+} */
+
+.shop{
+    /* margin-bottom: 2.5rem; */
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background: rgb(242, 242, 242);
+}
+
+.shop-title{
+    padding-top: 3.75rem;
+    padding-bottom: 1.5rem;
+    color: #ced4da;
+    font-size: 1.5rem;
+}
+
+.shop-menu{
+    padding-inline-start: 0;
+    width: 70%;
+    margin-bottom: 3.75rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.focus{
+    border-bottom: solid 0.35rem #222;
+}
+
+.comma::before{
+    color: #222;
+    content: ",";
+}
+
+.menu-item{
+    list-style-type: none;
+    font-size: 3.8rem;
+    line-height: 1.35;
+    text-align: -webkit-match-parent;
+    font-weight: 600;
+    font-family: "Noto Sans";
+    color: #222222;
+}
+
+.section-list{
+    /* width: 70%; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-item{
+    width: 21rem;
+    flex: 0 0 auto;
+    margin-right: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.section-img img{
+    width: 100%;
+    height: auto;
+}
+
+.section-content{
+    color: #222;
+    margin-right: 1rem;
+    margin-top: 1.25rem;
+    font-size: 14px !important;
+    font-family: 'Beausite-Regular','SUIT-Regular','Noto Sans KR',"Apple SD Gothic Neo","malgun gothic",sans-serif !important;
+    text-transform: uppercase;
+}
+
+.section-title{
+    margin-top: 0.625rem;
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.section-desc{
+    margin-top: 1.25rem;
+    padding-right: 2.5rem;
+    font-size: .85rem;
+    font-weight: 400;
+    overflow: hidden;
+    font-family: 'SUIT-Regular','Noto Sans KR',sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 1.5;
+}
+
+.shop-link{
+    color: #fff;
+    font-size: 6rem;
+    margin-top: 5.65rem;
+    padding-bottom: 6.25rem;
+    opacity: 0.5;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.shop-link a{
+    display: flex;
+    text-align: right;
+    color: #fff;
+    text-decoration: none;
+    width: 4rem;
+    height: 4rem;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.center-video{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+.video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* footer */
+#footer {
+    padding-top: 13.75rem;
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+}
+
+.footer{
+    display: flex;
+}
+
+.footer .footer-menu{
+    display: flex;
+}
+
+#footer .footer .footer-logo{
+    width: 20%;
+}
+
+.footer-width{
+    width: 28%;
+    min-width: 80px;
+}
+
+.navi-list{
+    margin-right: 5rem;
+    margin-top: 0;
+}
+
+.navi-title{
+    font-size: .9rem;
+    margin-bottom: 0.25rem;
+    text-transform: uppercase;
+    opacity: 0.25;
+}
+
+ul li {
+    list-style: none;
+}
+
+#footer .footer-menu .navi-item a {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.3;
+    color: #222;
+    text-decoration: none;
+}
+
+#footer .footer-menu .navi-item img {
+    width: 1.5rem;
+    margin-top: -0.125rem;
+    margin-left: 0.125rem;
+    height: auto;
+    vertical-align: middle;
+}
+
+#footer .sub-info {
+    padding-top: 6.25rem;
+    padding-bottom: 3.125rem;
+}
+
+.sub-info{
+    padding: 0;
+    margin: 0;
+    opacity: 0.25;
+}
+
+#footer .sub-info li {
+    margin-right: 1.3rem;
+    display: inline-block;
+    font-size: .9rem;
+}
+
+#footer .sub-info li.agreement {
+    border-bottom: 1px solid #999;
+}
+
+#footer .sub-info li a {
+    text-decoration: none;
+    color: #222;
 }
