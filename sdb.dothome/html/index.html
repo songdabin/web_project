@@ -24,7 +24,7 @@
       <ul>
         <li><a href="#">Search</a></li>
         <li><a href="login.html">Login</a></li>
-        <li><a href="#">Cart[0]</a></li>
+        <li><a id="myBtn" href="#">Cart[0]</a></li>
         <div class="global_logo" >
           <img src="img/icon_header_global_white.png" class="global_logo">
         </div>
@@ -34,6 +34,21 @@
     </div>
   </div>
 
+  <!-- Cart Modal -->
+  <div id="myModal" class="modal">
+    <div class="modal-header">
+      <span class="close">Close</span>
+      <h2>Cart</h2>
+    </div>
+    <div class="modal-body">
+      <p>장바구니가 비어 있습니다.</p>
+    </div>
+    <!-- <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div> -->
+  </div>
+
+  <!-- Slide -->
   <div class="slide-container">
     <!-- Slide 1 Ramyun -->
     <div class="slide slide-1 fade">
@@ -339,7 +354,8 @@
     </div>
   </footer>
 
-  <script type="text/javascript" src="slider.js"></script>
+  <script type="text/javascript" src="JS/modal.js"></script>
+  <script type="text/javascript" src="JS/slider.js"></script>
 </body>
   
 </html>
