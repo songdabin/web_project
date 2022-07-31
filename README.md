@@ -8,3 +8,8 @@
 ## Slider 참고
 
 [JavaScript를 활용한 Slider](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_auto)
+
+## 웹 서비스 캠프 Week 1
+1. CSS, JS 적용하는 방법
+2. flex, position을 활용해서 원하는 위치에 배치하는 방법
+3. layout 만들기
