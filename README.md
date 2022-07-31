@@ -4,3 +4,7 @@
 
 
 <img width="1440" alt="스크린샷 2022-07-08 오전 11 46 06" src="https://user-images.githubusercontent.com/82192898/178011621-0d9d7df8-2499-41e4-bfdd-baa606f92bc4.png">
+
+## Slider 참고
+
+[JavaScript를 활용한 Slider](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_auto)
